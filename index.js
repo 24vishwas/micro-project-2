@@ -11,19 +11,19 @@ const displayAllItem = (json) =>{
  return display(json);
 }
 
-// displayAllItem(json)
+displayAllItem(json)
 
 function vegee(json){
     let vegeeCatogary = json.filter(data => data.category == "Vegetable")
 display(vegeeCatogary)
 }
-// vegee(json)
+vegee(json)
 
 function fruity(list){
     let fruitCatogary = list.filter(data => data.category == "Fruit")
     display(fruitCatogary)
 }
-// fruity(json);
+fruity(json);
 
 function protien(json){
     let protein = json.filter(data => data.category == "Protein")
